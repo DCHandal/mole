@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3D Model on GitHub Pages</title>
+    <!-- Import the model-viewer component -->
+    <script type="module" src="https://googleapis.com"></script>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background: #eceff1; }
+        model-viewer { width: 100%; height: 100%; max-width: 800px; max-height: 600px; }
+    </style>
+</head>
+<body>
+
+    <!-- src points directly to your uploaded glb file -->
+    <model-viewer 
+        src="kk.glb" 
+        ar 
+        camera-controls 
+        touch-action="pan-y" 
+        auto-rotate>
+    </model-viewer>
+
+</body>
+</html>
